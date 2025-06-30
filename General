@@ -1,0 +1,13 @@
+App Service:
+
+
+So — is Azure App Service for traditional purposes?
+✅ In a way, yes — Azure App Service is Azure’s classic PaaS platform, primarily designed for:
+
+Traditional monolithic or simple web apps
+
+Web APIs
+
+Single-container applications
+
+Business apps that don’t need complex orchestration, microservices patterns, or distributed state
