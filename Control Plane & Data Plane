@@ -1,0 +1,6 @@
+What are Control Plane and Data Plane operations?
+In Azure (and other cloud platforms), operations are divided into two logical planes:
+
+Plane	What it handles	Example Actions
+Control Plane	Management operations — how you control, configure, or administer Azure resources	Create a VM, assign an NSG, set up a VNet, update a Key Vault secret
+Data Plane	Operational or runtime data access operations — how you use or consume those resources once they exist	Connect to a VM, query a database, read a secret from Key Vault, access a blob from Storage
