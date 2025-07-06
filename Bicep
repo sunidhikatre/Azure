@@ -1,0 +1,28 @@
+📌 What is an ARM Template?
+An ARM (Azure Resource Manager) template is a declarative JSON file used in Azure to define and deploy infrastructure and resources.
+It’s processed by Azure Resource Manager to provision Azure resources like VMs, storage accounts, VNets, etc.
+
+Declarative means:
+
+You describe what you want (the desired state), not how to create it.
+
+📌 What is Bicep?
+Bicep is a domain-specific language (DSL) that simplifies writing Azure infrastructure-as-code.
+It’s essentially a clean, modern alternative to ARM JSON templates, with easier syntax and better tooling.
+
+Important:
+Bicep transpiles into ARM JSON under the hood before deployment — so both ultimately deploy via Azure Resource Manager.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Why was Bicep introduced?
+ARM templates (JSON) are powerful but verbose, complex, and error-prone.
+
+Bicep simplifies this by offering:
+
+Cleaner syntax
+
+Better tooling (syntax highlighting, IntelliSense)
+
+Modular support
+
+Direct transpilation to ARM JSON behind the scenes
